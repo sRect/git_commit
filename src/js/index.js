@@ -9,9 +9,4 @@ class Test {
 }
 const test = new Test("jack");
 
-foo(
-  reallyLongArg(),
-  omgSoManyParameters(),
-  IShouldRefactorThis(),
-  isThereSeriouslyAnotherOne()
-);
+test.sayHello();
